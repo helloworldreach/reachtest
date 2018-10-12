@@ -39,6 +39,7 @@ export default class Reach {
 		 * @type {Object}
 		 */
 		this._callbacks = {};
+		console.log('I am !!!!');
 	}
 
 	/**

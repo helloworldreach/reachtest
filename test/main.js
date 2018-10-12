@@ -32,11 +32,11 @@ const Api = () => {
 		baseURL: `${config.protocol}://${config.domain}`,
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
-		}/*,
+		},
 		proxy: {
 			host: 'proxy.rd.francetelecom.fr',
 			port: 8080
-		}*/
+		}
 	});
 };
 
