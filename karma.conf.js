@@ -70,37 +70,37 @@ const sauceLabsBrowsers = {
 	//	seleniumVersion: '2.52.0',
 	//	flags
 	// }),
-	//sl_chrome_latest_win10: sauceLabsBrowser({
-	//	browserName: 'chrome',
-	//	platform: 'Windows 10',
-	//	version: 'latest',
-	//	seleniumVersion: '2.52.0',
-	//	flags
-	//}),
+	sl_chrome_latest_win10: sauceLabsBrowser({
+		browserName: 'chrome',
+		platform: 'Windows 10',
+		version: 'latest',
+		seleniumVersion: '2.52.0',
+		flags
+	}),
 	// sl_chrome_51_win10: sauceLabsBrowser({
 	//	browserName: 'chrome',
 	//	platform: 'Windows 10',
 	//	version: '51',
 	//	flags
 	// }),
-	//sl_chrome_latest_osx: sauceLabsBrowser({
-	//	browserName: 'chrome',
-	//	platform: 'OS X 10.11',
-	//	version: 'latest',
-	//	flags
-	//}),
-	//sl_chrome_latest_1_win7: sauceLabsBrowser({
-	//	browserName: 'chrome',
-	//	platform: 'Windows 7',
-	//	version: 'latest-1',
-	//	flags
-	//}),
-	//sl_chrome_minimum: sauceLabsBrowser({
-	//	browserName: 'chrome',
-	//	platform: 'Linux',
-	//	version: '38',
-	//	flags
-	//}),
+	sl_chrome_latest_osx: sauceLabsBrowser({
+		browserName: 'chrome',
+		platform: 'OS X 10.11',
+		version: 'latest',
+		flags
+	}),
+	sl_chrome_latest_1_win7: sauceLabsBrowser({
+		browserName: 'chrome',
+		platform: 'Windows 7',
+		version: 'latest-1',
+		flags
+	}),
+	sl_chrome_minimum: sauceLabsBrowser({
+		browserName: 'chrome',
+		platform: 'Linux',
+		version: '38',
+		flags
+	}),
 	sl_firefox_latest_win10: sauceLabsBrowser({
 		browserName: 'firefox',
 		platform: 'Windows 10',
