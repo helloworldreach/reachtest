@@ -70,13 +70,13 @@ const sauceLabsBrowsers = {
 	//	seleniumVersion: '2.52.0',
 	//	flags
 	// }),
-	sl_chrome_latest_win10: sauceLabsBrowser({
-		browserName: 'chrome',
-		platform: 'Windows 10',
-		version: '68',
-		seleniumVersion: '3.14.0',
-		flags
-	}),
+	//sl_chrome_latest_win10: sauceLabsBrowser({
+	//	browserName: 'chrome',
+	//	platform: 'Windows 10',
+	//	version: 'latest',
+	//	seleniumVersion: '2.52.0',
+	//	flags
+	//}),
 	// sl_chrome_51_win10: sauceLabsBrowser({
 	//	browserName: 'chrome',
 	//	platform: 'Windows 10',
