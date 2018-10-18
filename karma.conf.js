@@ -89,12 +89,12 @@ const sauceLabsBrowsers = {
 	//	version: 'latest',
 	//	flags
 	//}),
-	sl_chrome_latest_1_win7: sauceLabsBrowser({
-		browserName: 'chrome',
-		platform: 'Windows 7',
-		version: 'latest-1',
-		flags
-	}),
+	//sl_chrome_latest_1_win7: sauceLabsBrowser({
+	//	browserName: 'chrome',
+	//	platform: 'Windows 7',
+	//	version: 'latest-1',
+	//	flags
+	//}),
 	sl_chrome_minimum: sauceLabsBrowser({
 		browserName: 'chrome',
 		platform: 'Linux',
