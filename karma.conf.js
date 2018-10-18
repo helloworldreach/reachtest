@@ -42,8 +42,8 @@ const flags = [
 	//'--use-fake-device-for-media-stream',
 	// Bypass the media stream infobar by selecting the default device for media streams (e.g. WebRTC).
 	// Works with --use-fake-device-for-media-stream.
-	//'--use-fake-ui-for-media-stream',
-	//'--auto-open-devtools-for-tabs'
+	'--use-fake-ui-for-media-stream',
+	'--auto-open-devtools-for-tabs'
 ];
 // firefox prefs
 const prefs = {
@@ -73,8 +73,8 @@ const sauceLabsBrowsers = {
 	sl_chrome_latest_win10: sauceLabsBrowser({
 		browserName: 'chrome',
 		platform: 'Windows 10',
-		version: 'latest',
-		//seleniumVersion: '2.52.0',
+		version: '68',
+		seleniumVersion: '3.14.0',
 		flags
 	}),
 	// sl_chrome_51_win10: sauceLabsBrowser({
