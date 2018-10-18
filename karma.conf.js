@@ -95,12 +95,12 @@ const sauceLabsBrowsers = {
 	//	version: 'latest-1',
 	//	flags
 	//}),
-	sl_chrome_minimum: sauceLabsBrowser({
-		browserName: 'chrome',
-		platform: 'Linux',
-		version: '38',
-		flags
-	}),
+	//sl_chrome_minimum: sauceLabsBrowser({
+	//	browserName: 'chrome',
+	//	platform: 'Linux',
+	//	version: '38',
+	//	flags
+	//}),
 	sl_firefox_latest_win10: sauceLabsBrowser({
 		browserName: 'firefox',
 		platform: 'Windows 10',
