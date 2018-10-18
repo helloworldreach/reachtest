@@ -20,7 +20,7 @@ const load = dir => {
  */
 const loadConf = () => {
 	const fileName = load(process.env.HOME) || load(__dirname);
-	console.log('!!!!!!!!!!!! fileName='+fileName);
+
 	if (fileName) {
 		log(`Reading credentials from: ${fileName.replace(process.env.HOME, '$HOME')}`);
 		const fileContent = fs.readFileSync(fileName, 'utf8');
