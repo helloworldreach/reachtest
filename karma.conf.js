@@ -72,6 +72,7 @@ const sauceLabsBrowsers = {
 		browserName: 'chrome',
 		platform: 'Windows 10',
 		version: 'latest',
+		extendedDebugging: true,
 		flags
 	}),
 	sl_chrome_51_win10: sauceLabsBrowser({
